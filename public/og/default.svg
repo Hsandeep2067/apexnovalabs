@@ -1,0 +1,38 @@
+﻿<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="48" fill="url(#paint0_linear)" />
+  <rect x="36" y="36" width="1128" height="558" rx="36" fill="url(#paint1_radial)" opacity="0.9" />
+  <g filter="url(#filter0_d)">
+    <text x="120" y="280" fill="#BFDBFE" font-family="'Geist', 'Segoe UI', sans-serif" font-size="28" letter-spacing="0.5em" text-transform="uppercase">
+      APEX NOVA LABS
+    </text>
+    <text x="120" y="370" fill="#F8FAFC" font-family="'Geist', 'Segoe UI', sans-serif" font-size="82" font-weight="600">
+      Build peak-quality software.
+    </text>
+    <text x="120" y="445" fill="#F8FAFC" font-family="'Geist', 'Segoe UI', sans-serif" font-size="82" font-weight="600">
+      Launch like a new star.
+    </text>
+    <text x="120" y="520" fill="#BFDBFE" font-family="'Geist', 'Segoe UI', sans-serif" font-size="28">
+      apexnovalabs.lk
+    </text>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1120" />
+      <stop offset="1" stop-color="#1E3A8A" />
+    </linearGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 120) rotate(25) scale(900 420)">
+      <stop stop-color="#1D4ED8" stop-opacity="0.7" />
+      <stop offset="1" stop-color="#0B1120" stop-opacity="0.2" />
+    </radialGradient>
+    <filter id="filter0_d" x="100" y="200" width="1000" height="340" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dy="8" />
+      <feGaussianBlur stdDeviation="24" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.066 0 0 0 0 0.325 0 0 0 0 0.741 0 0 0 0.35 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+    </filter>
+  </defs>
+</svg>

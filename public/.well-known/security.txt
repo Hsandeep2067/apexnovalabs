@@ -1,0 +1,4 @@
+Contact: mailto:security@apexnovalabs.com
+Policy: https://apexnovalabs.com/terms
+Preferred-Languages: en
+Encryption: https://apexnovalabs.com/pgp.txt

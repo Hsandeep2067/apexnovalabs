@@ -27,7 +27,10 @@ export type ContactActionState =
     }
   | { status: "success"; message: string };
 
-function sanitize(value: string | null | undefined) {
+function sanitize(value: FormDataEntryValue | null | undefined) {
+  if (value instanceof File) {
+    return value.name;
+  }
   return value?.toString().trim() ?? "";
 }
 
@@ -73,7 +76,7 @@ export async function submitContactAction(
     };
   }
 
-  const requestHeaders = headers();
+  const requestHeaders = await headers();
   const submittedFrom = requestHeaders.get("x-forwarded-for") ?? "unknown";
 
   // TODO: Integrate Resend or your chosen email provider.

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import React, { useEffect, useState, ReactNode } from "react";
 import { Button } from "@/components/ui/button";
 
 type Theme = "light" | "dark";
@@ -19,7 +19,7 @@ function applyTheme(theme: Theme) {
   body.style.colorScheme = theme;
 }
 
-const icons: Record<Theme, JSX.Element> = {
+const icons: Record<Theme, ReactNode> = {
   light: (
     <svg
       aria-hidden="true"
